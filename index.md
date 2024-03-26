@@ -1,10 +1,10 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
+layout: doc
 
 hero:
   name: "Leo's Technique Blog"
-  text: "Make some notes for me on the technical article I read."
+  text: "Make some notes for the technical article I read."
   tagline: Casual, simple, irregularly updated articles.
   actions:
     - theme: brand
@@ -22,4 +22,13 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+## Getting Started
+
+You can get started using VitePress right away using `npx`!
+
+```sh
+npm init
+npx vitepress init
+```
 

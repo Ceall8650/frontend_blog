@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Leo's Frontend ",
-  description: "A frontend blog ",
+  title: "Leo's Tech Blog",
+  description: "A tech blog to presents the articles about the front-end",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    // nav: [
+    //   { text: 'Home', link: '/' },
+    //   { text: 'Examples', link: '/markdown-examples' }
+    // ],
 
     sidebar: [
       {
@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Ceall8650/frontend_blog' }
     ]
   }
 })
